@@ -2,6 +2,8 @@
 #define STACK_H
 #include <stdbool.h> 
 
+// 수정한 사항 (주석 한 줄 추가하였습니다)
+
 typedef int Item;
 typedef struct stack {
 Item * contents;

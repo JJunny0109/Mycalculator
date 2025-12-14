@@ -3,6 +3,8 @@
 #include "stack.h"
 #include <string.h>
 
+// 수정한 사항 (주석 한 줄 추가하였습니다)
+
 Stack * create_stack(int initial_size)
 {
 	Stack * s = (Stack *)malloc(sizeof(Stack));
